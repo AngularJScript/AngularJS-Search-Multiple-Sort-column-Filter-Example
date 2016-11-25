@@ -13,6 +13,10 @@ angularApp.controller('mainController', function($scope) {
     { name: 'Pradeepta Khatoi', email: 'pradeepata408@gmail.com', address: 'Puri, Odisha', age:23 }
   ];
   
+  $scope.clearFilter = function(){
+      $scope.search = {};
+  };
+  
 });
 
 angularApp.filter('range', function() {

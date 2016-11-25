@@ -12,7 +12,7 @@
     <body ng-app="chinuApp">
 
 
-        <div class="container" ng-controller="mainController">
+        <div class="container" ng-controller="mainController as main">
 
             <div class="alert alert-info col-lg-12">
                 <div class="col-lg-6">Sort Type: {{ sortType }}</div>
@@ -40,13 +40,18 @@
                             <input type="text" class="form-control" placeholder="Search Address" ng-model="search.address">
                         </div> 
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <div class="input-group">
                             <div class="input-group-addon"><i class="fa fa-search"></i></div>
                             <select name="age" ng-model="search.age" class="form-control">
                                 <option value="">Select Age</option>
                                 <option ng-repeat="age in [] | range:100" value="{{age}}">{{age}}</option>
                             </select>
+                        </div> 
+                    </div>
+                    <div class="col-lg-1">
+                        <div class="input-group">
+                            <button type="button" class="btn btn-primary" ng-click="clearFilter()">Reset</button>
                         </div> 
                     </div>
                 </div>
