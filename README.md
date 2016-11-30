@@ -6,4 +6,4 @@ Custom multiple search and sorting
 
 
 We have moved the link. Please use - 
-##[LINK](https://github.com/AngularJScript/Search-Multiple-fields-and-Sorting-AngularJS/)##
+##[Example](https://angularjscript.github.io/Search-Multiple-fields-and-Sorting-AngularJS//)##
