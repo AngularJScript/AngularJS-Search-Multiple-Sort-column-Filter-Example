@@ -88,7 +88,7 @@
                 </thead>
 
                 <tbody>
-                    <tr ng-repeat="profile in filteredData = (chinu | orderBy:sortType:sortReverse | filter:{name:search.name} | filter:{email:search.email} | filter:{address:search.address} | filter:{age:search.age})">
+                    <tr ng-repeat="profile in filteredData = (users | orderBy:sortType:sortReverse | filter:{name:search.name} | filter:{email:search.email} | filter:{address:search.address} | filter:{age:search.age})">
                         <td>{{ profile.name }}</td>
                         <td>{{ profile.email }}</td>
                         <td>{{ profile.address }}</td>
