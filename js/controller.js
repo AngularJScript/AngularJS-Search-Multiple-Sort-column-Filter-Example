@@ -5,7 +5,7 @@ angularApp.controller('mainController', function($scope) {
   $scope.search   = {};     // set the default search/filter term
   
   // create the list of sushi rolls 
-  $scope.chinu = [
+  $scope.users = [
     { name: 'Chinmay Sahu', email: 'chinmay235@gmail.com', address: 'Bhubaneswar, Odisha', age:24 },
     { name: 'Sanjib Pradhan', email: 'psanjib.tutu@gmail.com', address: 'Cuttack, Odisha', age:26 },
     { name: 'Debasish Das', email: 'das.debasis@gmail.com', address: 'Digha, West Bengal', age:28 },
